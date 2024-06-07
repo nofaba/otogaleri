@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OtoGaleriProjesiModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="ARACLAR">
+    <Key>
+      <PropertyRef Name="Arac_ID" />
+    </Key>
+    <Property Name="Arac_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Arac_Marka" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Arac_Model" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Arac_Renk" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Arac_Yil" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Arac_KM" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Arac_Kasa" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Arac_Durumu" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Arac_Fiyati" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Arac_Foto" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Arac_Vites" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Arac_Yakit" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Arac_Plaka" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Arac_SatılıkMi" Type="Boolean" />
+    <NavigationProperty Name="MUSTERI" Relationship="Self.FK_MUSTERI_ARACLAR" FromRole="ARACLAR" ToRole="MUSTERI" />
+  </EntityType>
+  <EntityType Name="ilceler">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ilce" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="sehir" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="iller" Relationship="Self.FK_ilceler_iller1" FromRole="ilceler" ToRole="iller" />
+    <NavigationProperty Name="MUSTERI" Relationship="Self.FK_MUSTERI_ilceler" FromRole="ilceler" ToRole="MUSTERI" />
+  </EntityType>
+  <EntityType Name="iller">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="sehir" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="ilceler" Relationship="Self.FK_ilceler_iller1" FromRole="iller" ToRole="ilceler" />
+    <NavigationProperty Name="MUSTERI" Relationship="Self.FK_MUSTERI_iller" FromRole="iller" ToRole="MUSTERI" />
+    <NavigationProperty Name="SUBE" Relationship="OtoGaleriProjesiModel.FK_SUBE_iller" FromRole="iller" ToRole="SUBE" />
+  </EntityType>
+  <EntityType Name="KULLANICI">
+    <Key>
+      <PropertyRef Name="Kul_ID" />
+    </Key>
+    <Property Name="Kul_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Kul_Ad_Soyad" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Kul_Mail" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Kul_Tel" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Kul_Sifre" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Kul_Foto" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="MUSTERI">
+    <Key>
+      <PropertyRef Name="Musteri_ID" />
+    </Key>
+    <Property Name="Musteri_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Musteri_TC" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Musteri_Ad_Soyad" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Musteri_Mail" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Musteri_Tel" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Musteri_İl" Type="Int32" Nullable="false" />
+    <Property Name="Musteri_İlçe" Type="Int32" Nullable="false" />
+    <Property Name="Musteri_Adres" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Arac_ID" Type="Int32" Nullable="false" />
+    <Property Name="Ehliyet" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="ARACLAR" Relationship="Self.FK_MUSTERI_ARACLAR" FromRole="MUSTERI" ToRole="ARACLAR" />
+    <NavigationProperty Name="ilceler" Relationship="Self.FK_MUSTERI_ilceler" FromRole="MUSTERI" ToRole="ilceler" />
+    <NavigationProperty Name="iller" Relationship="Self.FK_MUSTERI_iller" FromRole="MUSTERI" ToRole="iller" />
+  </EntityType>
+  <EntityType Name="PERSONEL">
+    <Key>
+      <PropertyRef Name="Personel_ID" />
+    </Key>
+    <Property Name="Personel_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Personel_TC" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Personel_Ad_Soyad" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Personel_Yas" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Personel_Tel" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Personel_Mail" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Sube_ID" Type="Int32" />
+    <Property Name="Personel_Foto" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="SUBE" Relationship="Self.FK_PERSONEL_SUBE" FromRole="PERSONEL" ToRole="SUBE" />
+  </EntityType>
+  <EntityType Name="SUBE">
+    <Key>
+      <PropertyRef Name="Sube_ID" />
+    </Key>
+    <Property Name="Sube_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Sube_Ad" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Sorumlı_Kisi" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Sube_Tel" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Sube_Mail" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="PERSONEL" Relationship="Self.FK_PERSONEL_SUBE" FromRole="SUBE" ToRole="PERSONEL" />
+    <Property Name="Sube_il" Type="Int32" />
+    <NavigationProperty Name="iller" Relationship="OtoGaleriProjesiModel.FK_SUBE_iller" FromRole="SUBE" ToRole="iller" />
+  </EntityType>
+  <Association Name="FK_MUSTERI_ARACLAR">
+    <End Role="ARACLAR" Type="Self.ARACLAR" Multiplicity="1" />
+    <End Role="MUSTERI" Type="Self.MUSTERI" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ARACLAR">
+        <PropertyRef Name="Arac_ID" />
+      </Principal>
+      <Dependent Role="MUSTERI">
+        <PropertyRef Name="Arac_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ilceler_iller1">
+    <End Role="iller" Type="Self.iller" Multiplicity="1" />
+    <End Role="ilceler" Type="Self.ilceler" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="iller">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="ilceler">
+        <PropertyRef Name="sehir" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MUSTERI_ilceler">
+    <End Role="ilceler" Type="Self.ilceler" Multiplicity="1" />
+    <End Role="MUSTERI" Type="Self.MUSTERI" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ilceler">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="MUSTERI">
+        <PropertyRef Name="Musteri_İlçe" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MUSTERI_iller">
+    <End Role="iller" Type="Self.iller" Multiplicity="1" />
+    <End Role="MUSTERI" Type="Self.MUSTERI" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="iller">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="MUSTERI">
+        <PropertyRef Name="Musteri_İl" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PERSONEL_SUBE">
+    <End Role="SUBE" Type="Self.SUBE" Multiplicity="0..1" />
+    <End Role="PERSONEL" Type="Self.PERSONEL" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SUBE">
+        <PropertyRef Name="Sube_ID" />
+      </Principal>
+      <Dependent Role="PERSONEL">
+        <PropertyRef Name="Sube_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="OtoGaleriProjesiEntities3" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ARACLAR" EntityType="Self.ARACLAR" />
+    <EntitySet Name="ilceler" EntityType="Self.ilceler" />
+    <EntitySet Name="iller" EntityType="Self.iller" />
+    <EntitySet Name="KULLANICI" EntityType="Self.KULLANICI" />
+    <EntitySet Name="MUSTERI" EntityType="Self.MUSTERI" />
+    <EntitySet Name="PERSONEL" EntityType="Self.PERSONEL" />
+    <EntitySet Name="SUBE" EntityType="Self.SUBE" />
+    <AssociationSet Name="FK_MUSTERI_ARACLAR" Association="Self.FK_MUSTERI_ARACLAR">
+      <End Role="ARACLAR" EntitySet="ARACLAR" />
+      <End Role="MUSTERI" EntitySet="MUSTERI" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ilceler_iller1" Association="Self.FK_ilceler_iller1">
+      <End Role="iller" EntitySet="iller" />
+      <End Role="ilceler" EntitySet="ilceler" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MUSTERI_ilceler" Association="Self.FK_MUSTERI_ilceler">
+      <End Role="ilceler" EntitySet="ilceler" />
+      <End Role="MUSTERI" EntitySet="MUSTERI" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MUSTERI_iller" Association="Self.FK_MUSTERI_iller">
+      <End Role="iller" EntitySet="iller" />
+      <End Role="MUSTERI" EntitySet="MUSTERI" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PERSONEL_SUBE" Association="Self.FK_PERSONEL_SUBE">
+      <End Role="SUBE" EntitySet="SUBE" />
+      <End Role="PERSONEL" EntitySet="PERSONEL" />
+    </AssociationSet>
+    <EntitySet Name="sysdiagrams" EntityType="OtoGaleriProjesiModel.sysdiagrams" />
+    <AssociationSet Name="FK_SUBE_iller" Association="OtoGaleriProjesiModel.FK_SUBE_iller">
+      <End Role="iller" EntitySet="iller" />
+      <End Role="SUBE" EntitySet="SUBE" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_SUBE_iller">
+    <End Type="OtoGaleriProjesiModel.iller" Role="iller" Multiplicity="0..1" />
+    <End Type="OtoGaleriProjesiModel.SUBE" Role="SUBE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="iller">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="SUBE">
+        <PropertyRef Name="Sube_il" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="OtoGaleriProjesiModelStoreContainer" CdmEntityContainer="OtoGaleriProjesiEntities3">
+    <EntitySetMapping Name="ARACLAR">
+      <EntityTypeMapping TypeName="OtoGaleriProjesiModel.ARACLAR">
+        <MappingFragment StoreEntitySet="ARACLAR">
+          <ScalarProperty Name="Arac_ID" ColumnName="Arac_ID" />
+          <ScalarProperty Name="Arac_Marka" ColumnName="Arac_Marka" />
+          <ScalarProperty Name="Arac_Model" ColumnName="Arac_Model" />
+          <ScalarProperty Name="Arac_Renk" ColumnName="Arac_Renk" />
+          <ScalarProperty Name="Arac_Yil" ColumnName="Arac_Yil" />
+          <ScalarProperty Name="Arac_KM" ColumnName="Arac_KM" />
+          <ScalarProperty Name="Arac_Kasa" ColumnName="Arac_Kasa" />
+          <ScalarProperty Name="Arac_Durumu" ColumnName="Arac_Durumu" />
+          <ScalarProperty Name="Arac_Fiyati" ColumnName="Arac_Fiyati" />
+          <ScalarProperty Name="Arac_Foto" ColumnName="Arac_Foto" />
+          <ScalarProperty Name="Arac_Vites" ColumnName="Arac_Vites" />
+          <ScalarProperty Name="Arac_Yakit" ColumnName="Arac_Yakit" />
+          <ScalarProperty Name="Arac_Plaka" ColumnName="Arac_Plaka" />
+          <ScalarProperty Name="Arac_SatılıkMi" ColumnName="Arac_SatılıkMi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ilceler">
+      <EntityTypeMapping TypeName="OtoGaleriProjesiModel.ilceler">
+        <MappingFragment StoreEntitySet="ilceler">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="ilce" ColumnName="ilce" />
+          <ScalarProperty Name="sehir" ColumnName="sehir" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="iller">
+      <EntityTypeMapping TypeName="OtoGaleriProjesiModel.iller">
+        <MappingFragment StoreEntitySet="iller">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="sehir" ColumnName="sehir" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KULLANICI">
+      <EntityTypeMapping TypeName="OtoGaleriProjesiModel.KULLANICI">
+        <MappingFragment StoreEntitySet="KULLANICI">
+          <ScalarProperty Name="Kul_ID" ColumnName="Kul_ID" />
+          <ScalarProperty Name="Kul_Ad_Soyad" ColumnName="Kul_Ad_Soyad" />
+          <ScalarProperty Name="Kul_Mail" ColumnName="Kul_Mail" />
+          <ScalarProperty Name="Kul_Tel" ColumnName="Kul_Tel" />
+          <ScalarProperty Name="Kul_Sifre" ColumnName="Kul_Sifre" />
+          <ScalarProperty Name="Kul_Foto" ColumnName="Kul_Foto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MUSTERI">
+      <EntityTypeMapping TypeName="OtoGaleriProjesiModel.MUSTERI">
+        <MappingFragment StoreEntitySet="MUSTERI">
+          <ScalarProperty Name="Musteri_ID" ColumnName="Musteri_ID" />
+          <ScalarProperty Name="Musteri_TC" ColumnName="Musteri_TC" />
+          <ScalarProperty Name="Musteri_Ad_Soyad" ColumnName="Musteri_Ad_Soyad" />
+          <ScalarProperty Name="Musteri_Mail" ColumnName="Musteri_Mail" />
+          <ScalarProperty Name="Musteri_Tel" ColumnName="Musteri_Tel" />
+          <ScalarProperty Name="Musteri_İl" ColumnName="Musteri_İl" />
+          <ScalarProperty Name="Musteri_İlçe" ColumnName="Musteri_İlçe" />
+          <ScalarProperty Name="Musteri_Adres" ColumnName="Musteri_Adres" />
+          <ScalarProperty Name="Arac_ID" ColumnName="Arac_ID" />
+          <ScalarProperty Name="Ehliyet" ColumnName="Ehliyet" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PERSONEL">
+      <EntityTypeMapping TypeName="OtoGaleriProjesiModel.PERSONEL">
+        <MappingFragment StoreEntitySet="PERSONEL">
+          <ScalarProperty Name="Personel_ID" ColumnName="Personel_ID" />
+          <ScalarProperty Name="Personel_TC" ColumnName="Personel_TC" />
+          <ScalarProperty Name="Personel_Ad_Soyad" ColumnName="Personel_Ad_Soyad" />
+          <ScalarProperty Name="Personel_Yas" ColumnName="Personel_Yas" />
+          <ScalarProperty Name="Personel_Tel" ColumnName="Personel_Tel" />
+          <ScalarProperty Name="Personel_Mail" ColumnName="Personel_Mail" />
+          <ScalarProperty Name="Sube_ID" ColumnName="Sube_ID" />
+          <ScalarProperty Name="Personel_Foto" ColumnName="Personel_Foto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SUBE">
+      <EntityTypeMapping TypeName="OtoGaleriProjesiModel.SUBE">
+        <MappingFragment StoreEntitySet="SUBE">
+          <ScalarProperty Name="Sube_il" ColumnName="Sube_il" />
+          <ScalarProperty Name="Sube_ID" ColumnName="Sube_ID" />
+          <ScalarProperty Name="Sube_Ad" ColumnName="Sube_Ad" />
+          <ScalarProperty Name="Sorumlı_Kisi" ColumnName="Sorumlı_Kisi" />
+          <ScalarProperty Name="Sube_Tel" ColumnName="Sube_Tel" />
+          <ScalarProperty Name="Sube_Mail" ColumnName="Sube_Mail" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="OtoGaleriProjesiModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="definition" ColumnName="definition" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

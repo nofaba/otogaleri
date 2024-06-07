@@ -1,0 +1,250 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nofab\\OneDrive\\Desktop\\OtoGallery-master_1\\OtoGallery-master\\OtoGallery-master\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nofab\\OneDrive\\Desktop\\OtoGallery-master_1\\OtoGallery-master\\OtoGallery-master\\OtoGaleri\\Form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OtoGaleri\\Form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE26515-4D09-467C-971B-EF92CC053B87}|OtoGaleri\\OtoGaleri.csproj|c:\\users\\nofab\\onedrive\\desktop\\otogallery-master_1\\otogallery-master\\otogallery-master\\otogaleri\\form6_personel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BE26515-4D09-467C-971B-EF92CC053B87}|OtoGaleri\\OtoGaleri.csproj|solutionrelative:otogaleri\\form6_personel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE26515-4D09-467C-971B-EF92CC053B87}|OtoGaleri\\OtoGaleri.csproj|C:\\Users\\nofab\\OneDrive\\Desktop\\OtoGallery-master_1\\OtoGallery-master\\OtoGallery-master\\otogaleri\\form6_personel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9BE26515-4D09-467C-971B-EF92CC053B87}|OtoGaleri\\OtoGaleri.csproj|solutionrelative:otogaleri\\form6_personel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE26515-4D09-467C-971B-EF92CC053B87}|OtoGaleri\\OtoGaleri.csproj|C:\\Users\\nofab\\OneDrive\\Desktop\\OtoGallery-master_1\\OtoGallery-master\\OtoGallery-master\\otogaleri\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BE26515-4D09-467C-971B-EF92CC053B87}|OtoGaleri\\OtoGaleri.csproj|solutionrelative:otogaleri\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE26515-4D09-467C-971B-EF92CC053B87}|OtoGaleri\\OtoGaleri.csproj|C:\\Users\\nofab\\OneDrive\\Desktop\\OtoGallery-master_1\\OtoGallery-master\\OtoGallery-master\\otogaleri\\from7_raporlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9BE26515-4D09-467C-971B-EF92CC053B87}|OtoGaleri\\OtoGaleri.csproj|solutionrelative:otogaleri\\from7_raporlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE26515-4D09-467C-971B-EF92CC053B87}|OtoGaleri\\OtoGaleri.csproj|C:\\Users\\nofab\\OneDrive\\Desktop\\OtoGallery-master_1\\OtoGallery-master\\OtoGallery-master\\otogaleri\\from3_musteri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9BE26515-4D09-467C-971B-EF92CC053B87}|OtoGaleri\\OtoGaleri.csproj|solutionrelative:otogaleri\\from3_musteri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE26515-4D09-467C-971B-EF92CC053B87}|OtoGaleri\\OtoGaleri.csproj|C:\\Users\\nofab\\OneDrive\\Desktop\\OtoGallery-master_1\\OtoGallery-master\\OtoGallery-master\\otogaleri\\form8_arac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9BE26515-4D09-467C-971B-EF92CC053B87}|OtoGaleri\\OtoGaleri.csproj|solutionrelative:otogaleri\\form8_arac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE26515-4D09-467C-971B-EF92CC053B87}|OtoGaleri\\OtoGaleri.csproj|C:\\Users\\nofab\\OneDrive\\Desktop\\OtoGallery-master_1\\OtoGallery-master\\OtoGallery-master\\otogaleri\\form5_subeler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9BE26515-4D09-467C-971B-EF92CC053B87}|OtoGaleri\\OtoGaleri.csproj|solutionrelative:otogaleri\\form5_subeler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE26515-4D09-467C-971B-EF92CC053B87}|OtoGaleri\\OtoGaleri.csproj|C:\\Users\\nofab\\OneDrive\\Desktop\\OtoGallery-master_1\\OtoGallery-master\\OtoGallery-master\\otogaleri\\form2_anasayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9BE26515-4D09-467C-971B-EF92CC053B87}|OtoGaleri\\OtoGaleri.csproj|solutionrelative:otogaleri\\form2_anasayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE26515-4D09-467C-971B-EF92CC053B87}|OtoGaleri\\OtoGaleri.csproj|C:\\Users\\nofab\\OneDrive\\Desktop\\OtoGallery-master_1\\OtoGallery-master\\OtoGallery-master\\otogaleri\\form1_giris.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BE26515-4D09-467C-971B-EF92CC053B87}|OtoGaleri\\OtoGaleri.csproj|solutionrelative:otogaleri\\form1_giris.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE26515-4D09-467C-971B-EF92CC053B87}|OtoGaleri\\OtoGaleri.csproj|C:\\Users\\nofab\\OneDrive\\Desktop\\OtoGallery-master_1\\OtoGallery-master\\OtoGallery-master\\otogaleri\\form1_giris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BE26515-4D09-467C-971B-EF92CC053B87}|OtoGaleri\\OtoGaleri.csproj|solutionrelative:otogaleri\\form1_giris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE26515-4D09-467C-971B-EF92CC053B87}|OtoGaleri\\OtoGaleri.csproj|C:\\Users\\nofab\\OneDrive\\Desktop\\OtoGallery-master_1\\OtoGallery-master\\OtoGallery-master\\otogaleri\\form1_giris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9BE26515-4D09-467C-971B-EF92CC053B87}|OtoGaleri\\OtoGaleri.csproj|solutionrelative:otogaleri\\form1_giris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE26515-4D09-467C-971B-EF92CC053B87}|OtoGaleri\\OtoGaleri.csproj|C:\\Users\\nofab\\OneDrive\\Desktop\\OtoGallery-master_1\\OtoGallery-master\\OtoGallery-master\\otogaleri\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{9BE26515-4D09-467C-971B-EF92CC053B87}|OtoGaleri\\OtoGaleri.csproj|solutionrelative:otogaleri\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE26515-4D09-467C-971B-EF92CC053B87}|OtoGaleri\\OtoGaleri.csproj|C:\\Users\\nofab\\OneDrive\\Desktop\\OtoGallery-master_1\\OtoGallery-master\\OtoGallery-master\\otogaleri\\araclar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BE26515-4D09-467C-971B-EF92CC053B87}|OtoGaleri\\OtoGaleri.csproj|solutionrelative:otogaleri\\araclar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\nofab\\OneDrive\\Desktop\\OtoGallery-master_1\\OtoGallery-master\\OtoGallery-master\\OtoGaleri\\Form2.cs",
+              "RelativeDocumentMoniker": "OtoGaleri\\Form2.cs",
+              "ToolTip": "C:\\Users\\nofab\\OneDrive\\Desktop\\OtoGallery-master_1\\OtoGallery-master\\OtoGallery-master\\OtoGaleri\\Form2.cs",
+              "RelativeToolTip": "OtoGaleri\\Form2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T10:00:58.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nofab\\OneDrive\\Desktop\\OtoGallery-master_1\\OtoGallery-master\\OtoGallery-master\\OtoGaleri\\Program.cs",
+              "RelativeDocumentMoniker": "OtoGaleri\\Program.cs",
+              "ToolTip": "C:\\Users\\nofab\\OneDrive\\Desktop\\OtoGallery-master_1\\OtoGallery-master\\OtoGallery-master\\OtoGaleri\\Program.cs",
+              "RelativeToolTip": "OtoGaleri\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T17:40:07.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Form1_Giris.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\nofab\\OneDrive\\Desktop\\OtoGallery-master_1\\OtoGallery-master\\OtoGallery-master\\OtoGaleri\\Form1_Giris.Designer.cs",
+              "RelativeDocumentMoniker": "OtoGaleri\\Form1_Giris.Designer.cs",
+              "ToolTip": "C:\\Users\\nofab\\OneDrive\\Desktop\\OtoGallery-master_1\\OtoGallery-master\\OtoGallery-master\\OtoGaleri\\Form1_Giris.Designer.cs",
+              "RelativeToolTip": "OtoGaleri\\Form1_Giris.Designer.cs",
+              "ViewState": "AQIAAAoCAAAAAAAAAAAQwAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T16:27:23.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form6_Personel.cs",
+              "DocumentMoniker": "C:\\Users\\nofab\\OneDrive\\Desktop\\OtoGallery-master_1\\OtoGallery-master\\OtoGallery-master\\OtoGaleri\\Form6_Personel.cs",
+              "RelativeDocumentMoniker": "OtoGaleri\\Form6_Personel.cs",
+              "ToolTip": "C:\\Users\\nofab\\OneDrive\\Desktop\\OtoGallery-master_1\\OtoGallery-master\\OtoGallery-master\\OtoGaleri\\Form6_Personel.cs",
+              "RelativeToolTip": "OtoGaleri\\Form6_Personel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T16:21:47.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Form1_Giris.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\nofab\\OneDrive\\Desktop\\OtoGallery-master_1\\OtoGallery-master\\OtoGallery-master\\OtoGaleri\\Form1_Giris.cs",
+              "RelativeDocumentMoniker": "OtoGaleri\\Form1_Giris.cs",
+              "ToolTip": "C:\\Users\\nofab\\OneDrive\\Desktop\\OtoGallery-master_1\\OtoGallery-master\\OtoGallery-master\\OtoGaleri\\Form1_Giris.cs [Tasar\u0131m]",
+              "RelativeToolTip": "OtoGaleri\\Form1_Giris.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T15:50:07.546Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Form1_Giris.cs",
+              "DocumentMoniker": "C:\\Users\\nofab\\OneDrive\\Desktop\\OtoGallery-master_1\\OtoGallery-master\\OtoGallery-master\\OtoGaleri\\Form1_Giris.cs",
+              "RelativeDocumentMoniker": "OtoGaleri\\Form1_Giris.cs",
+              "ToolTip": "C:\\Users\\nofab\\OneDrive\\Desktop\\OtoGallery-master_1\\OtoGallery-master\\OtoGallery-master\\OtoGaleri\\Form1_Giris.cs",
+              "RelativeToolTip": "OtoGaleri\\Form1_Giris.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T15:50:13.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form8_Arac.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\nofab\\OneDrive\\Desktop\\OtoGallery-master_1\\OtoGallery-master\\OtoGallery-master\\OtoGaleri\\Form8_Arac.cs",
+              "RelativeDocumentMoniker": "OtoGaleri\\Form8_Arac.cs",
+              "ToolTip": "C:\\Users\\nofab\\OneDrive\\Desktop\\OtoGallery-master_1\\OtoGallery-master\\OtoGallery-master\\OtoGaleri\\Form8_Arac.cs [Tasar\u0131m]",
+              "RelativeToolTip": "OtoGaleri\\Form8_Arac.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T16:23:03.483Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form2_Anasayfa.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\nofab\\OneDrive\\Desktop\\OtoGallery-master_1\\OtoGallery-master\\OtoGallery-master\\OtoGaleri\\Form2_Anasayfa.cs",
+              "RelativeDocumentMoniker": "OtoGaleri\\Form2_Anasayfa.cs",
+              "ToolTip": "C:\\Users\\nofab\\OneDrive\\Desktop\\OtoGallery-master_1\\OtoGallery-master\\OtoGallery-master\\OtoGaleri\\Form2_Anasayfa.cs [Tasar\u0131m]",
+              "RelativeToolTip": "OtoGaleri\\Form2_Anasayfa.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T16:03:41.291Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "From7_Raporlar.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\nofab\\OneDrive\\Desktop\\OtoGallery-master_1\\OtoGallery-master\\OtoGallery-master\\OtoGaleri\\From7_Raporlar.cs",
+              "RelativeDocumentMoniker": "OtoGaleri\\From7_Raporlar.cs",
+              "ToolTip": "C:\\Users\\nofab\\OneDrive\\Desktop\\OtoGallery-master_1\\OtoGallery-master\\OtoGallery-master\\OtoGaleri\\From7_Raporlar.cs [Tasar\u0131m]",
+              "RelativeToolTip": "OtoGaleri\\From7_Raporlar.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T16:28:11.842Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "From3_Musteri.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\nofab\\OneDrive\\Desktop\\OtoGallery-master_1\\OtoGallery-master\\OtoGallery-master\\OtoGaleri\\From3_Musteri.cs",
+              "RelativeDocumentMoniker": "OtoGaleri\\From3_Musteri.cs",
+              "ToolTip": "C:\\Users\\nofab\\OneDrive\\Desktop\\OtoGallery-master_1\\OtoGallery-master\\OtoGallery-master\\OtoGaleri\\From3_Musteri.cs [Tasar\u0131m]",
+              "RelativeToolTip": "OtoGaleri\\From3_Musteri.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T16:27:46.356Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form6_Personel.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\nofab\\OneDrive\\Desktop\\OtoGallery-master_1\\OtoGallery-master\\OtoGallery-master\\OtoGaleri\\Form6_Personel.cs",
+              "RelativeDocumentMoniker": "OtoGaleri\\Form6_Personel.cs",
+              "ToolTip": "C:\\Users\\nofab\\OneDrive\\Desktop\\OtoGallery-master_1\\OtoGallery-master\\OtoGallery-master\\OtoGaleri\\Form6_Personel.cs [Tasar\u0131m]",
+              "RelativeToolTip": "OtoGaleri\\Form6_Personel.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T16:19:54.953Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form5_Subeler.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\nofab\\OneDrive\\Desktop\\OtoGallery-master_1\\OtoGallery-master\\OtoGallery-master\\OtoGaleri\\Form5_Subeler.cs",
+              "RelativeDocumentMoniker": "OtoGaleri\\Form5_Subeler.cs",
+              "ToolTip": "C:\\Users\\nofab\\OneDrive\\Desktop\\OtoGallery-master_1\\OtoGallery-master\\OtoGallery-master\\OtoGaleri\\Form5_Subeler.cs [Tasar\u0131m]",
+              "RelativeToolTip": "OtoGaleri\\Form5_Subeler.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T16:18:09.486Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ARACLAR.cs",
+              "DocumentMoniker": "C:\\Users\\nofab\\OneDrive\\Desktop\\OtoGallery-master_1\\OtoGallery-master\\OtoGallery-master\\OtoGaleri\\ARACLAR.cs",
+              "RelativeDocumentMoniker": "OtoGaleri\\ARACLAR.cs",
+              "ToolTip": "C:\\Users\\nofab\\OneDrive\\Desktop\\OtoGallery-master_1\\OtoGallery-master\\OtoGallery-master\\OtoGaleri\\ARACLAR.cs",
+              "RelativeToolTip": "OtoGaleri\\ARACLAR.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T15:25:24.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\nofab\\OneDrive\\Desktop\\OtoGallery-master_1\\OtoGallery-master\\OtoGallery-master\\OtoGaleri\\App.config",
+              "RelativeDocumentMoniker": "OtoGaleri\\App.config",
+              "ToolTip": "C:\\Users\\nofab\\OneDrive\\Desktop\\OtoGallery-master_1\\OtoGallery-master\\OtoGallery-master\\OtoGaleri\\App.config",
+              "RelativeToolTip": "OtoGaleri\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-30T14:54:42.774Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
